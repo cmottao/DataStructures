@@ -1,6 +1,6 @@
 #include <iostream>
 
-// Stack represents a basic LIFO (Last In First Out) stack
+// Stack represents a LIFO (Last In First Out) stack
 template<typename T> struct Stack {
 private:
     int capacity, current; // Capacity of the stack and current number of elements
