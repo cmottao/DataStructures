@@ -1,6 +1,6 @@
 #include <iostream>
 
-// UnionFind represents a Union-Find Disjint Set
+// UnionFind represents a Union-Find Disjoint Set
 struct UnionFind {
 private:
     int *rank, *parent, *setSize; // Arrays to store rank, parent, and size of sets
